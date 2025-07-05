@@ -42,15 +42,17 @@ Git instalado
 
 1° - `git clone https://github.com/GokuDBZSSJ7/sistema-biblioteca-api.git`
 
-2° - No arquivo de appsettings.json, edite a string de conexão com os dados do seu MySQL: `"ConnectionStrings": {
+2° - `dotnet restore`
+
+3° - No arquivo de appsettings.json, edite a string de conexão com os dados do seu MySQL: `"ConnectionStrings": {
   "DefaultConnection": "server=localhost;database=api_biblioteca;user=root;password=sua_senha"
 }`
 
-3° - `dotnet ef database update`
+4° - `dotnet ef database update`
 
-4° - `dotnet run`
+5° - `dotnet run`
 
-5° - Acesse no navegador: `https://localhost:7044/swagger`
+6° - Acesse no navegador: `https://localhost:7044/swagger`
 
 ## ​📷​ Imagens do Projeto
 
